@@ -1,0 +1,18 @@
+# ===== Keil 编译输出（不入库）=====
+Objects/
+Listings/
+DebugConfig/
+
+# ===== Keil 用户级 GUI / 调试配置（每个人不同，不入库）=====
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+
+# ===== 调试器 / 日志 =====
+JLinkLog.txt
+JLinkSettings.ini
+*.bak
+*.log
+
+# ===== EventRecorder 调试相关 =====
+*.scvd
